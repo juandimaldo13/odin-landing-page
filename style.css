@@ -48,3 +48,39 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+      
+}
+
+.dash-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+.dash-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    align-self: flex-start;
+}
+
+button {
+
+    background-color: #3882F6;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    flex-grow: 0;
+}
+
+.dash-img {
+
+    max-width: 150px;
+    border: 1px solid red;
+}
