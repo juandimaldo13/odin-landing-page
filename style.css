@@ -1,6 +1,6 @@
 body {
 
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
@@ -9,10 +9,10 @@ body {
 
 .header {
 
-    background-color: #1a2849;
+    background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     padding: 15px ;
 }
@@ -30,7 +30,7 @@ body {
 
    
     flex-direction: row;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: 25px;
     
 
@@ -51,36 +51,45 @@ a{
 
 .dashboard {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    
       
 }
 
 .dash-text{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    
+    margin-left: 25px;
+    overflow-wrap: break-word;
 
 }
 .dash-title {
     color: white;
     font-size: 48px;
     font-weight: 900;
-    align-self: flex-start;
+    
+}
+
+.dash-subtext {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+
 }
 
 button {
 
     background-color: #3882F6;
     color: white;
-    padding: 15px;
+    padding: 8px;
     border: 1px solid white;
-    flex-grow: 0;
+    border-radius: 8px;
+    margin: 10px;
 }
 
 .dash-img {
 
-    max-width: 150px;
-    border: 1px solid red;
+    padding: 15px;
+    
 }
